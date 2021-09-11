@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login Test</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+    <p th:text="Login Page"></p>
+    <label for="logonId">Email</label>
+    <input id="logonId"
+           name="logonId"
+           maxlength="251"
+           type="email"
+           value="">
+    <label for="logonPassword">Password</label>
+    <input id="logonPassword"
+           name="logonPassword"
+           maxlength="40"
+           type="password"
+           onpaste="return false"
+           value=""
+           title="Password:"
+           aria-required="true"
+           aria-invalid="false">
+</body>
+
+</html>
